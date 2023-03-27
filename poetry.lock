@@ -2719,14 +2719,14 @@ test = ["mypy", "pytest", "typing-extensions"]
 
 [[package]]
 name = "types-python-dateutil"
-version = "2.8.19.8"
+version = "2.8.19.11"
 description = "Typing stubs for python-dateutil"
 category = "dev"
 optional = false
 python-versions = "*"
 files = [
-    {file = "types-python-dateutil-2.8.19.8.tar.gz", hash = "sha256:316c6b107d055bbd06324b71362e6104102220e6988aa4a388550aa3a8ad5d06"},
-    {file = "types_python_dateutil-2.8.19.8-py3-none-any.whl", hash = "sha256:6b44741d3e79b2f2ba595f6bfa96f1a5091a00703848547efb3bc5b71df3cf9d"},
+    {file = "types-python-dateutil-2.8.19.11.tar.gz", hash = "sha256:de66222c54318c2e05ceb4956976d16696240a45fc2c98e54bfe9a56ce5e1eff"},
+    {file = "types_python_dateutil-2.8.19.11-py3-none-any.whl", hash = "sha256:357553f8056cfbb8ce8ea0ca4a6a3480268596748360df73a94c2b8c113a5b06"},
 ]
 
 [[package]]
@@ -2958,4 +2958,4 @@ validation = ["fastjsonschema"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.7.4"
-content-hash = "b7b26cc10f2535b1c67cd4eb99af27c27269685fb9ab1cb3d480cd0264d6bfee"
+content-hash = "ce997d8d4f891fb6a706c4abd5f0e67e96a068572e3eb40928f7687f9febcadd"
