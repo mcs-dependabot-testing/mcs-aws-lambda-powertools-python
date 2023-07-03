@@ -179,23 +179,23 @@ requests = ">=0.14.0"
 
 [[package]]
 name = "aws-sam-translator"
-version = "1.59.0"
+version = "1.70.0"
 description = "AWS SAM Translator is a library that transform SAM templates into AWS CloudFormation templates"
 optional = false
 python-versions = ">=3.7, <=4.0, !=4.0"
 files = [
-    {file = "aws-sam-translator-1.59.0.tar.gz", hash = "sha256:9b8f23a5754cba92677d334ece5c5d9dc9b1f1a327a650fc8939ae3fc6da4141"},
-    {file = "aws_sam_translator-1.59.0-py3-none-any.whl", hash = "sha256:6761293a21bd1cb0e19f168926ebfc4a3a6c9011aca67bd448ef485a55d6f658"},
+    {file = "aws-sam-translator-1.70.0.tar.gz", hash = "sha256:753288eda07b057e5350773b7617076962b59404d49cd05e2259ac96a7694436"},
+    {file = "aws_sam_translator-1.70.0-py3-none-any.whl", hash = "sha256:a2df321607d29791893707ef2ded9e79be00dbb71ac430696f6e6d7d0b0301a5"},
 ]
 
 [package.dependencies]
 boto3 = ">=1.19.5,<2.dev0"
 jsonschema = ">=3.2,<5"
 pydantic = ">=1.8,<2.0"
-typing-extensions = ">=4.4.0,<4.5.0"
+typing-extensions = ">=4.4,<5"
 
 [package.extras]
-dev = ["black (==20.8b1)", "boto3 (>=1.23,<2)", "boto3-stubs[appconfig,serverlessrepo] (>=1.19.5,<2.dev0)", "click (>=7.1,<8.0)", "coverage (>=5.3,<6.0)", "dateparser (>=0.7,<1.0)", "docopt (>=0.6.2,<0.7.0)", "flake8 (>=3.8.4,<3.9.0)", "mypy (==0.971)", "parameterized (>=0.7.4,<0.8.0)", "pylint (>=2.15.0,<2.16.0)", "pytest (>=6.2.5,<6.3.0)", "pytest-cov (>=2.10.1,<2.11.0)", "pytest-env (>=0.6.2,<0.7.0)", "pytest-rerunfailures (>=9.1.1,<9.2.0)", "pytest-xdist (>=2.5,<3.0)", "pyyaml (>=5.4,<6.0)", "requests (>=2.25.0,<2.26.0)", "ruamel.yaml (==0.17.21)", "tenacity (>=7.0.0,<7.1.0)", "tox (>=3.24,<4.0)", "types-PyYAML (>=5.4,<6.0)", "types-jsonschema (>=3.2,<4.0)"]
+dev = ["black (==23.1.0)", "boto3 (>=1.23,<2)", "boto3-stubs[appconfig,serverlessrepo] (>=1.19.5,<2.dev0)", "coverage (>=5.3,<8)", "dateparser (>=1.1,<2.0)", "importlib-metadata", "mypy (>=1.1.0,<1.2.0)", "parameterized (>=0.7,<1.0)", "pytest (>=6.2,<8)", "pytest-cov (>=2.10,<5)", "pytest-env (>=0.6,<1)", "pytest-rerunfailures (>=9.1,<12)", "pytest-xdist (>=2.5,<4)", "pyyaml (>=6.0,<7.0)", "requests (>=2.28,<3.0)", "ruamel.yaml (==0.17.21)", "ruff (==0.0.263)", "tenacity (>=8.0,<9.0)", "types-PyYAML (>=6.0,<7.0)", "types-jsonschema (>=3.2,<4.0)"]
 
 [[package]]
 name = "aws-xray-sdk"
@@ -2622,13 +2622,13 @@ files = [
 
 [[package]]
 name = "typing-extensions"
-version = "4.4.0"
+version = "4.7.1"
 description = "Backported and Experimental Type Hints for Python 3.7+"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "typing_extensions-4.4.0-py3-none-any.whl", hash = "sha256:16fa4864408f655d35ec496218b85f79b3437c829e93320c7c9215ccfd92489e"},
-    {file = "typing_extensions-4.4.0.tar.gz", hash = "sha256:1511434bb92bf8dd198c12b1cc812e800d4181cfcb867674e0f8279cc93087aa"},
+    {file = "typing_extensions-4.7.1-py3-none-any.whl", hash = "sha256:440d5dd3af93b060174bf433bccd69b0babc3b15b1a8dca43789fd7f61514b36"},
+    {file = "typing_extensions-4.7.1.tar.gz", hash = "sha256:b75ddc264f0ba5615db7ba217daeb99701ad295353c45f9e95963337ceeeffb2"},
 ]
 
 [[package]]
@@ -2815,4 +2815,4 @@ validation = ["fastjsonschema"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.7.4"
-content-hash = "106ccc13949549db2f47b457dffb71cbfd781b046e04f736bb79d5dfe3410410"
+content-hash = "646c6858252e1be3ac4540669692307d4fe2d49920fd256b3fe85f7c31d3ff1d"
